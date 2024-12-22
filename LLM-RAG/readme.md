@@ -1,7 +1,0 @@
-# Presentation
-
-One of the first tasks I received upon starting my internship was to contribute to the development of an intelligent agent, utilizing language models (**Large Language Models - LLM**), for engineering applications. This repository contains a test implementation, used to familiarize myself with the subject and gain a deeper understanding of the topic. Due to computational limitations at the time, I utilized the [OpenAI API](https://openai.com/api/) to access a language model and refined the model's response pattern using [LlamaIndex](https://www.llamaindex.ai/), a highly interesting framework, which at the time was the best solution I found to implement **RAG (Retrieval-Augmented Generation)**, the method I chose to specialize the model's responses.
-
-## Retrieval-Augmented Generation:
-
-In the field of artificial intelligence and **natural language processing (NLP)**, generating high-quality and relevant text has been an area of intense development. One of the most innovative and effective approaches in this context is **RAG (Retrieval-Augmented Generation)**, which combines advanced generative models with information retrieval mechanisms, resulting in more accurate, contextualized, and informative responses. With this in mind, aiming to assist individuals interested in studying for public service exams, the model was specialized in the area of Brazilian constitutional law, serving as a helpful tool for studying and preparing.
