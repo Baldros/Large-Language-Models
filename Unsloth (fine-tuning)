@@ -1,3 +1,0 @@
-# Apresentação:
-
-O Unsloth é uma ferramenta projetada para simplificar e acelerar o processo de fine-tuning de modelos de linguagem de grande porte (LLMs). Ele oferece uma interface amigável para configurar treinamentos personalizados, permitindo ajustes finos em dados específicos com eficiência e escalabilidade. Com suporte para diversos formatos de dados e integração direta com frameworks populares de machine learning, o Unsloth torna o fine-tuning mais acessível para desenvolvedores e equipes que buscam aplicar modelos LLM em aplicações específicas, otimizando custos e recursos computacionais.
