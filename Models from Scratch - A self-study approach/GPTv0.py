@@ -69,7 +69,7 @@ decode = lambda l: ''.join([itos[i] for i in l]) # Função de decodificação -
 
 """
 A estratégia de tokenização também não leva em consideração caracteres
-fora do conjunto de treinamento. Obviamente, a probabilidade é que,
+fora do conjunto de treinamento. Obviamente, a maior probabilidade é que,
 dado a estratégia de tokenização, para o alfabeto ocidental, esse
 problema não aconteça. Todavia, é algo a se considerar em versões
 futuras.
@@ -82,9 +82,9 @@ train_data = data[:n] # Dados de treino
 val_data = data[n:] # Dados de validação
 
 """
-Karpathy considera aqui validação equivalente a teste. O ideial é
-ter os dados de validação separados dos dados de teste, porque
-validação e teste têm propósitos diferentes. 
+Aqui, Karpathy está considerando validação equivalente a teste.
+O ideal é ter os dados de validação separados dos dados de teste,
+porque validação e teste têm propósitos diferentes. 
 
 Os dados de validação são usados para ajustar hiperparâmetros e 
 avaliar o desempenho do modelo durante o treinamento, enquanto os 
@@ -247,8 +247,8 @@ class GPT(nn.Module):
         # auto-inicialização dos pesos do modelo
         """
         Melhoria na inicialização, não abordada no vídeo original
-        do GPT, mas importante, será abordada em um vídeo subsequente.
-        Essa melhoria está no código extraído do repositório do Karpathy.
+        do GPT, mas está melhoria está no código extraído do
+        repositório do Karpathy.
         """
         self.apply(self._init_weights)
 
